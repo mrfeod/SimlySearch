@@ -16,5 +16,6 @@
         android:layout_alignParentTop="true"
         android:layout_centerHorizontal="true"
         android:queryHint="@string/abc_search_hint"
-        android:iconifiedByDefault="false" />
+        android:iconifiedByDefault="false"
+        android:inputType="textAutoCorrect" />
 </RelativeLayout>
