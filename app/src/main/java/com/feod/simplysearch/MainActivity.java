@@ -32,4 +32,12 @@ public class MainActivity extends AppCompatActivity {
             }
         });
     }
+
+    @Override
+    protected void onPause() {
+        SearchView search = (SearchView) findViewById(R.id.searchView);
+        assert(search != null);
+        search.setQuery("", false);
+        super.onPause();
+    }
 }
